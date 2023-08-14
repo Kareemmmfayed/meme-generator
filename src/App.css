@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  width: 550px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  height: 65px;
+  color: white;
+  padding: 8px;
+}
+
+.header h2 {
+  margin-right: auto;
+}
+
+.header img {
+  width: 44px;
+  margin: 6px;
+}
+
+.header p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.form {
+  position: relative;
+}
+
+input {
+  position: absolute;
+  height: 35px;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+input:first-of-type,
+input:nth-of-type(2) {
+  width: 230px;
+  top: 33px;
+  border: 1px solid #D5D4D8;
+}
+
+input:first-of-type {
+  left: 36px
+}
+
+input:nth-of-type(2) {
+  left: 283px;
+}
+
+input:nth-of-type(3) {
+  width: 477px;
+  top: 100px;
+  left: 36px;
+  background-color: #A626D3;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
